@@ -7,3 +7,4 @@ p {font-size:10px; font-family:cursive}
 #current {color:lightseagreen}
 #past {color:cadetblue}
 #headshot {float:right}
+p ~ section {color: darkmagenta}
