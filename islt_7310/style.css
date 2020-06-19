@@ -1,10 +1,23 @@
-#header1 {font-family:cursive; font-size:22px; color:#3F1EA3}
-#footer {font-size:9px; position:absolute; text-align:center; font-size:10px}
+#header1 
+
+{font-family:cursive; font-size:22px; color:#3F1EA3; 
+    background-color:#c1d1e8; border: 2px dashed}
+
+#footer {font-size:9px; text-align:center; border-top: 1px solid black}
 #header3 {font-size:14px; color:#211053}
+
 a:hover {color:red}
 a {text-decoration:none; font-size:10px}
-p {font-size:10px; font-family:cursive}
+
+
+p {font-size:14px; font-family:cursive}
+
+
 #current {color:lightseagreen}
-#past {color:cadetblue}
-#headshot {float:right}
+#past {color:steelblue}
+#headshot {float:right; padding: 10px; margin: 2px}
+
+
 p ~ section {color: darkmagenta}
+* {font-family: cursive}
+body {background-color: aliceblue}
