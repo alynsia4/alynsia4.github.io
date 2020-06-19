@@ -1,5 +1,8 @@
-#header1 {color: #3F1EA3}
+#header1 {font-family:cursive; font-size:22px; color:#3F1EA3}
 #footer {font-size:9px}
-
-a:hover {color: red}
-a {text-decoration: none; font-size: 10px}
+#header3 {font-size:14px; color:#211053}
+a:hover {color:red}
+a {text-decoration:none; font-size:10px}
+p {font-size:10px; font-family:cursive}
+#current {color:lightseagreen}
+#past {color:cadetblue}
