@@ -18,7 +18,7 @@ ul {list-style-type: square}
 
 p {font-size:14px; font-family:cursive}
 
-#headshot {float:right; padding: 20px; margin: 15px}
+#headshot {float:right; padding: 2px; margin: 5px}
 #quote {color: #45a29e}
 
 * {font-family: cursive; color: #c5c6c7}
