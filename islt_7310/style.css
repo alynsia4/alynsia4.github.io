@@ -1,23 +1,25 @@
+/*validated*/
+
 #header1 
+{font-family:cursive; font-size:22px; color:#66fcf1;}
 
-{font-family:cursive; font-size:22px; color:#3F1EA3; 
-    background-color:#c1d1e8; border: 2px dashed}
+#footer {font-size:9px; text-align:center; padding-top: 5px; border-top: 3px solid #4f4b4b}
+#header3 {font-size:16px; color:#66fcf1}
 
-#footer {font-size:9px; text-align:center; border-top: 1px solid black}
-#header3 {font-size:14px; color:#211053}
+.center-text {text-align: center;display: block;}
+#resumelink:hover {color: #45a29e; background-color: #1f2833} 
+#resumelink {font-size: 18px}
 
-a:hover {color:red}
+
+a:hover {color:white}
 a {text-decoration:none; font-size:10px}
 
+ul {list-style-type: square}
 
 p {font-size:14px; font-family:cursive}
 
+#headshot {float:right; padding: 20px; margin: 15px}
+#quote {color: #45a29e}
 
-#current {color:lightseagreen}
-#past {color:steelblue}
-#headshot {float:right; padding: 10px; margin: 2px}
-
-
-p ~ section {color: darkmagenta}
-* {font-family: cursive}
-body {background-color: aliceblue}
+* {font-family: cursive; color: #c5c6c7}
+body {background-color: #0b0c10; margin: 15px}
