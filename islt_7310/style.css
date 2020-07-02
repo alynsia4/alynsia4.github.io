@@ -1,28 +1,33 @@
-/*validated*/
+/*validated 7/2/2020*/
+
+
 
 #header1 
 {font-family:comic sans ms; font-size:22px; color:#66fcf1;}
 
-#footer {font-size:9px; text-align:center; padding-top: 5px; border-top: 3px solid #4f4b4b}
+#footer {font-size:9px; text-align:center; padding-top: 5px; border-top: 3px solid #4f4b4b;}
 #header3 {font-size:16px; color:#66fcf1}
 
 .center-text {text-align: center;display: block;}
-#resumelink:hover {color: #45a29e; background-color: #1f2833} 
-#resumelink {font-size: 18px}
+#resumelink:hover {color: #45a29e; background-color: #1f2833;} 
+#resumelink {font-size: 18px;}
 
 
 a:hover {color:white}
 a {text-decoration:none; font-size:10px}
 
-ul.education {list-style-type: square}
+ul.education {list-style-type: square;}
 
-p {font-size:14px; font-family:comic sans ms}
+p {font-size:14px; font-family:comic sans ms;}
 
 #headshot {float:right; padding: 2px; margin: 5px}
 #quote {color: #45a29e}
 
-* {font-family: comic sans ms; color: #c5c6c7}
+* {font-family: comic sans ms; color: #c5c6c7;}
 body {background-color: #0b0c10; margin: 15px}
 
 p.philo1::first-letter {font-size: 25px;}
 p.philo {text-indent: 10px;}
+
+
+

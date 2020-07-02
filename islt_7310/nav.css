@@ -1,17 +1,26 @@
-.nav {list-style: none;}
+.nav {list-style: none; background-color: #0b0c10;}
+
+
+
+.nav a {float: left; background-color:  #0b0c10; text-align: center; text-decoration: none; font-size: 12px;}
+
 
 .nav li {display: inline-block; 
     padding: 10px; 
     margin: 10px; 
-        border: solid;
-    background-color:#0b0c10;
+    background-color: #0b0c10;}
+
+.dropdown {
+  position: relative;
+    display: inline-block;}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+    background-color: #0b0c10;}
+
     
+.dropdown:hover .dropdown-content {
+  display: block;
 }
-
-li > ul {display: none}
-
-
-li:hover ul {display: block; left:200px; background-color:#0b0c10; margin:0px; border:none;}
-
-li:hover ul li a:link{display: grid; margin-left:30px; border:none;background-color:#0b0c10;}
 
