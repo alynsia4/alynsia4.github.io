@@ -1,5 +1,7 @@
-.nav {list-style: none; background-color: #0b0c10;}
+/*validated 7/4/2020*/
 
+
+.nav {list-style: none; background-color: #0b0c10;}
 
 
 .nav a {float: left; background-color:  #0b0c10; text-align: center; text-decoration: none; font-size: 12px;}
@@ -24,3 +26,29 @@
   display: block;
 }
 
+label {font-size: 25px; display: none;}
+ 
+#hamburger {display: none;}
+
+
+@media only screen and (max-width:640px)
+
+{
+    label {display: block; cursor: pointer; }
+    .menu {text-align: center; width: 100%; display: none; }
+
+    .menu a {display: block; margin: 0;}
+    
+    .menu a hover {display: block;}
+    
+    #hamburger:checked + .menu {display: block;}
+    
+    .dropdown:hover .dropdown-content {
+        display: none;}    
+    
+    .nav li {display: block; 
+    padding: 10px; 
+    margin: 10px; 
+    background-color: #0b0c10;}
+
+}

@@ -1,33 +1,161 @@
-/*validated 7/2/2020*/
-
-
-
-#header1 
-{font-family:comic sans ms; font-size:22px; color:#66fcf1;}
-
-#footer {font-size:9px; text-align:center; padding-top: 5px; border-top: 3px solid #4f4b4b;}
-#header3 {font-size:16px; color:#66fcf1}
-
-.center-text {text-align: center;display: block;}
-#resumelink:hover {color: #45a29e; background-color: #1f2833;} 
-#resumelink {font-size: 18px;}
-
-
-a:hover {color:white}
-a {text-decoration:none; font-size:10px}
-
-ul.education {list-style-type: square;}
-
-p {font-size:14px; font-family:comic sans ms;}
-
-#headshot {float:right; padding: 2px; margin: 5px}
-#quote {color: #45a29e}
+/*validated 7/4/2020*/
 
 * {font-family: comic sans ms; color: #c5c6c7;}
 body {background-color: #0b0c10; margin: 15px}
 
-p.philo1::first-letter {font-size: 35px;}
-p.philo {text-indent: 15px;}
+/*index*/
+#header1 
+{font-family:comic sans ms; font-size:22px; color:#66fcf1;}
+#footer1 {font-size:9px; text-align:center; padding-top: 5px; border-top: 2px solid #4f4b4b;}
+h3 {font-size:16px; color:#66fcf1;}
+ul.education {list-style-type: square;}
+p {font-size:16px; font-family:comic sans ms;}
+#quote_ {color: #45a29e; font-size: 20px;}
+
+/*center all images*/
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.container_index {
+  display: grid;
+  width: 100%;
+  height: 100%;
+  grid-template-areas: "header header"
+  "main picture"
+  "quote quote"
+  "footer footer";
+  grid-template-columns: 65% 35%;
+  grid-template-rows: auto 1fr auto auto;
+}
+.container_index > div 
+
+.header {
+  grid-area: header;
+}
+.main {
+  grid-area: main;
+}
+.picture {
+  grid-area: picture;
+}
+.quote {
+  grid-area: quote;
+}
+.footer {
+  grid-area: footer;
+}
 
 
 
+
+.container_reflection {
+  display: grid;
+  width: 100%;
+  height: 100%;
+  grid-template-areas: "header header"
+  "explanation explanation"
+  "quote1 quote2"
+  "quote3 quote4"
+  "footer footer";
+  grid-template-columns: 50% 50%;
+  grid-template-rows: auto .3fr 2fr 2fr auto;
+}
+.container_reflection > div
+
+.header {
+  grid-area: header;
+}
+.explanation {
+  grid-area: explanation;
+}
+.quote1 {
+  grid-area: quote1;
+    border: 1px dashed #45a29e;
+    padding: 10px;
+}
+.quote2 {
+  grid-area: quote2;
+    border: 1px dashed #45a29e;
+    padding: 10px;
+}
+.quote3 {
+  grid-area: quote3;
+    border: 1px dashed #45a29e;
+    padding: 10px;
+}
+.quote4 {
+  grid-area: quote4;
+    border: 1px dashed #45a29e;
+    padding: 10px;
+}
+.footer {
+  grid-area: footer;
+}
+
+/*resume page*/
+.center-text {text-align: center;display: block;}
+#resumelink:hover {color: #45a29e; background-color: #1f2833;} 
+#resumelink {font-size: 18px;}
+a:hover {color:white}
+a {text-decoration:none; font-size:10px}
+
+
+
+/*reflection*/
+p.philo {text-indent: 10px;}
+
+
+
+
+/*contact page*/
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */ 
+  border: 1px solid  #4f4b4b; /* dark gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: #4f4b4b;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button */
+input[type=submit]:hover {
+  background-color: #45a29e;
+}
+
+/* Add a background color and some padding around the form */
+.container2 {
+  border-radius: 5px;
+  background-color: #45a29e;
+  padding: 20px;
+}
+
+
+
+
+@media screen and (max-width:640px) {
+    
+    .container {
+  display: flex;
+       flex-direction: column; } 
+    
+img {max-width:100%; height: auto;}
+    
+    
+}
