@@ -97,11 +97,10 @@ p {font-size:16px; font-family:comic sans ms;}
 }
 
 /*resume page*/
-.center-text {text-align: center;display: block;}
-#resumelink:hover {color: #45a29e; background-color: #1f2833;} 
+#resumelink:hover {color: #45a29e; background-color: #1f2833; text-align: center;} 
 #resumelink {font-size: 18px;}
 a:hover {color:white}
-a {text-decoration:none; font-size:10px}
+a {text-decoration:none; font-size:10px;}
 
 
 
