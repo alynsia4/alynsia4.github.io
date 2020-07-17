@@ -5,7 +5,7 @@ body {background-color: #0b0c10; margin: 15px}
 
 /*index*/
 #header1 
-{font-family: 'Teko', sans-serif; font-size:22px; color:#66fcf1;}
+{font-family: comic sans ms; font-size:22px; color:#66fcf1;}
 #footer1 {font-size:9px; text-align:center; padding-top: 5px; border-top: 2px solid #4f4b4b; background-image: url(footerbackground.png); }
 h3 {font-size:16px; color:#66fcf1;}
 ul.education {list-style-type: square;}
