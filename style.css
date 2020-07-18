@@ -1,0 +1,219 @@
+/*validated 7/17/2020*/
+
+* {font-family: comic sans ms;  color: #c5c6c7;}
+body {background-color: #0b0c10;  margin: 15px}
+
+/*index*/
+#header1 
+{font-family: comic sans ms; font-size:28px; color:#66fcf1;}
+#footer1 {font-size:15px; text-align:center; padding-top: 5px; border-top: 2px solid #4f4b4b; }
+h3 {font-size:22px; color:#66fcf1;}
+ul.education {list-style-type: square;}
+p {font-size:22px; font-family:comic sans ms;}
+#quote_ {color: #45a29e; 
+    font-size: 25px;}
+
+/*experience*/
+section {font-size: 20px;}
+
+
+/*table style*/
+table th {text-align: left; 
+    border: 1px solid #66fcf1; 
+    padding: 4px 8px; 
+    background-color:#45a29e; 
+    color: white;}
+table td {border: 1px solid #66fcf1; 
+    padding: 4px 8px;}
+table {border-collapse: collapse;} /*no space*/
+table tr:nth-child(odd) td {background-color: #43454d;} /*every other color*/
+
+
+/*center all images*/
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+/*footer icons*/
+.zoom {width:auto; display: inline-block;}
+.zoom:hover {transform: scale(1.3);}
+
+/*resume video*/
+.resume_video {position: relative; overflow: hidden; padding-top: 56.25%;}
+.responsive-iframe {position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;}
+
+.container_index {
+  display: grid;
+  width: 100%;
+  height: 100%;
+  grid-template-areas: "header header"
+  "main picture"
+  "quote quote"
+  "footer footer";
+  grid-template-columns: 65% 35%;
+  grid-template-rows: auto 1fr auto auto;
+}
+.container_index > div 
+
+.header {
+  grid-area: header;
+}
+.main {
+  grid-area: main;
+}
+.picture {
+  grid-area: picture;
+}
+.quote {
+  grid-area: quote;
+}
+.footer {
+  grid-area: footer;
+}
+
+
+
+
+.container_reflection {
+  display: grid;
+  width: 100%;
+  height: 100%;
+  grid-template-areas: "header header"
+  "explanation explanation"
+  "quote1 quote2"
+  "quote3 quote4"
+  "footer footer";
+  grid-template-columns: 50% 50%;
+  grid-template-rows: auto .3fr 2fr 2fr auto;
+}
+.container_reflection > div
+
+.header {
+  grid-area: header;
+}
+.explanation {
+  grid-area: explanation;
+}
+.quote1 {
+  grid-area: quote1;
+    border: 1px dashed #45a29e;
+    padding: 10px;
+}
+.quote2 {
+  grid-area: quote2;
+    border: 1px dashed #45a29e;
+    padding: 10px;
+}
+.quote3 {
+  grid-area: quote3;
+    border: 1px dashed #45a29e;
+    padding: 10px;
+}
+.quote4 {
+  grid-area: quote4;
+    border: 1px dashed #45a29e;
+    padding: 10px;
+}
+.footer {
+  grid-area: footer;
+}
+
+/*resume page*/
+#resumelink:hover {color: #45a29e; background-color: #1f2833; text-align: center;} 
+#resumelink {font-size: 23px;}
+a:hover {color:white}
+a {text-decoration:none; font-size:15px;}
+
+
+
+/*reflection*/
+p.philo {text-indent: 10px;}
+
+
+
+
+/*contact page*/
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */ 
+  border: 1px solid  #4f4b4b; /* dark gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+input[type=email]
+{width: 100%; /* Full width */
+  padding: 12px; /* Some padding */ 
+    border: 1px solid  #4f4b4b; /* dark gray border */
+     border-radius: 4px; /* Rounded borders */
+     box-sizing: border-box; /* Make sure that padding and width stays in place */
+ margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: #4f4b4b;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button */
+input[type=submit]:hover {
+  background-color: #45a29e;
+}
+
+/* Add a background color and some padding around the form */
+.container2 {
+  border-radius: 5px;
+  background-color: #45a29e;
+  padding: 20px;
+}
+
+
+
+/*print page*/
+@media print {
+    *{background: transparent !important;
+    color: black !important;
+    box-shadow: none !important;
+    text-shadow: none !important;
+    font-family: serif !important;
+    margin: 3px;}
+    
+    .nav {display: none;}
+    #header1 {font-family: 'Teko', sans-serif !important;}
+
+    
+}
+
+
+
+@media screen and (max-width:640px) {
+    
+    .container {
+       display: flex;
+       flex-direction: column; } 
+    
+img {max-width:100%; height: auto;}
+
+body, h1, p, h3, ul, li, blockquote, footer, a, h4, section, table, caption
+    
+    {font-size:90% !important;}
+    
+    
+
+
+
+
